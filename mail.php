@@ -11,11 +11,11 @@ $mail->CharSet  = "UTF-8"; //字符集
 $mail->Encoding = "base64"; //编码方式
 
 $mail->Username = "hui2864667376@163.com";  //你的邮箱
-$mail->Password = "ch000018";  //你的密码
+$mail->Password = "xueshanfeihu";  //你的密码
 $mail->Subject = "测试邮件标题"; //邮件标题
 
 $mail->From = "hui2864667376@163.com";  //发件人地址（也就是你的邮箱）
-$mail->FromName = "ch";  //发件人姓名
+$mail->FromName = "andy";  //发件人姓名
 
 $address = "2864667376@qq.com";//收件人email
 $mail->AddAddress($address, "嗨");//添加收件人（地址，昵称）
